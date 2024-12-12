@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact CLINTON">
+    <title>Contact - Clinton</title>
+    
+   
+</head>
+<style>
+    
+header{
+    background-color: chartreuse;
+    text-align: justify;
+    text-decoration: none;
+    width: 100%;
+    height: 10%;
+    z-index: 999;
+    left: 0px;
+}
+h1{
+    justify-content: center;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font: bolder;
+}
+nav{
+    padding: 33px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+
+}
+ul{
+    list-style: none;
+    font-size: 20px;
+    text-decoration: none;
+}
+ul>li{
+   
+    display: inline;
+   padding: 5px;
+   border: 1px solid;
+   border-radius: 70px;
+   align-content: center;
+   font: bolder;
+   color: blue;
+   background-color: aliceblue;
+   font-size: 20px;
+
+}
+ul>li>a{
+    text-decoration: none;
+    justify-content: center;
+    
+}
+li.hoover{
+    background-color: aliceblue;
+}
+*{
+    box-sizing: border-box;
+    
+}
+section{
+    padding: 33px;
+    behavior: var(-CLINTON);
+}
+form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   max-width: 500px;
+  
+   margin: 0 auto;
+}
+
+
+form input,
+form textarea {
+   width: 100%;
+   padding: 10px;
+   margin: 10px 0;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+}
+
+form button {
+   background-color: #28a745;
+   color: white;
+   padding: 15px 30px;
+   font-size: 1.1em;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   box-shadow: 0 0 60px black, 0 0 62px black,0 0 64px whitesmoke, 0 0 70px whitesmoke, 0 0 80px whitesmoke;
+}
+
+
+form button:hover {
+   background-color: #218838;
+}
+
+/* Hidden element */
+.hidden {
+   display: none;
+}
+
+/* Footer */
+footer {
+   background-color: #333;
+   color: white;
+   text-align: center;
+   padding: 20px 0;
+   margin-top: 50px;
+}
+
+</style>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index3.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="academic-goals.html">Academic Goals</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h1>Contact Me</h1>
+        <p>If you'd like to reach out, feel free to use the contact form below or connect with me via social media:</p>
+
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <a href="/index.html" class="btn">Back</a>
+        <h2>Connect with Me</h2>
+        <p>Follow me on <a href="https://twitter.com/yourprofile">Twitter</a>, <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>, or <a href="https://github.com/yourprofile">GitHub</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 <i><b>musigazi clinton</b></i>. All rights reserved.</p>
+    </footer>
+</body>
+</html>
